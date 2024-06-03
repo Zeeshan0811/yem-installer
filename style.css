@@ -1,0 +1,59 @@
+/* style.css */
+
+.yem-form-container {
+    width: 50%;
+    /* Half of the desktop screen width */
+    max-width: 600px;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center the form horizontally */
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* On small screens, make the form full width */
+    .yem-form-container {
+        width: 100%;
+    }
+}
+
+#yem-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Position the Save button relative to this container */
+}
+
+.yem-form-group {
+    margin-bottom: 20px;
+}
+
+.yem-form-group label {
+    font-weight: bold;
+}
+
+textarea#yem_content {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit_btn {
+    text-align: right;
+}
+
+.yem-form-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007cba;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.yem-form-container input[type="submit"]:hover {
+    background-color: #005f84;
+}
