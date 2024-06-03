@@ -19,13 +19,13 @@ YEM Installer is a user-friendly plugin designed to help you integrate YEM’s E
 
 - Easily add the YEM script to your site.
 - Simple and intuitive interface.
-- Script is added just before the closing `</body>` tag on every page.
+- Script is added just before the closing `</head>` tag on every page.
 - Helps capture more enquiries from your website visitors.
 - Enhances your ability to instantly reply and manage opportunities.
 
 ## Installation
 
-1. Download the plugin ZIP file from the [latest release](https://github.com/your-username/yem-installer/releases).
+1. Download the plugin ZIP file from the [latest release](https://github.com/Zeeshan0811/yem-installer/releases).
 2. Upload the ZIP file to your WordPress site via the Plugins > Add New page.
 3. Activate the YEM Installer plugin.
 
@@ -45,8 +45,9 @@ Alternatively, you can install the plugin directly from the WordPress Plugin Dir
 
 ## Screenshots
 
-1. **Admin Interface**: ![Admin Interface](assets/screenshot-1.png)
-2. **Example Usage**: ![Example Usage](assets/screenshot-2.png)
+1. **Admin Interface**: ![Admin Interface](instruction/screenshot_admin.png)
+2. **Front Page**: ![Example Usage](instruction/screenshot_front.png)
+3. **Enquiry Box**: ![Example Usage](instruction/screenshot_enquiry_box.png)
 
 ## Frequently Asked Questions
 
@@ -96,7 +97,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you need help, please open a ticket in the [support forum](https://wordpress.org/support/plugin/yem-installer) or create an issue on GitHub.
-
----
-
-**Note**: Replace the placeholders like `your-username` with your actual GitHub username and other specific details as needed. Ensure that the links to images, releases, and support forums are correctly pointed to the right resources.
